@@ -88,7 +88,7 @@ export const CERTIFICATES = [
     title: "C++",
     image: cpp,
     description:
-      "Developed high-performance algorithms and data structures, with applications in University of Pforzheim and Macromedia Academy.",
+      "Developed high-performance algorithms and data structures, with applications in Macromedia Academy.",
     technologies: ["OOP", "Pointer", "Arithmetics", "Storage optimization", "lifeCycles"],
   },
   {
