@@ -8,6 +8,7 @@ import cpp from "../assets/certificates/Cpp.jpg";
 import html from "../assets/certificates/html.jpg";
 import android from "../assets/certificates/android.jpg";
 import employer from "../assets/certificates/employer.jpg";
+import computacenter from "../assets/certificates/Computacenter.jpg";
 import networks from "../assets/certificates/networks.jpg";
 import prof from "../assets/certificates/stamp.jpg";
 
@@ -55,34 +56,42 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Weather App",
+    title: "Zendesk Knowledgebase",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "A fully functional knowledgebase created for both internal employees as well as customers on best uses etc.",
     technologies: ["Kotlin", "Jetpack Compose", "Co-Routines", "Asynchronous Programming", "Composables"],
   },
   {
-    title: "Task Management App",
+    title: "Confluence Knowledge Base Management",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
+      "Built and structured Confluence knowledge bases, organized documentation, and improved internal workflows through clear and accessible content.",
+    technologies: ["Confluence", "Knowledge Base", "Documentation", "Collaboration"],
+  }
+  ,
   {
-    title: "Portfolio Website",
+    title: "X-Ray & CT Device Testing and Documentation",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "PyQt Application",
-    image: project4,
-    description: "Desktop application developed using PyQt for GUI applications.",
-    technologies: ["Python", "PyQt"],
-  },
+      "Tested X-Ray and CT devices for European market compliance, created detailed user guides, and optimized image processing workflows.",
+    technologies: ["Medical Devices", "Testing", "Image Processing", "Technical Writing"],
+  }
+  ,
+ 
 ];
 
+/*
+import { RiReactjsLine } from "react-icons/ri"
+import { TbBrandNextjs } from "react-icons/tb"
+import { SiPython } from 'react-icons/si';
+import { SiCplusplus } from 'react-icons/si';
+import { FaNodeJs } from "react-icons/fa"
+import { BiLogoPostgresql } from "react-icons/bi"
+import { SiKotlin } from 'react-icons/si';
+import { SiTensorflow } from 'react-icons/si';
+import { motion } from "framer-motion";
+*/
 export const CERTIFICATES = [
   {
     title: "Python",
@@ -90,13 +99,6 @@ export const CERTIFICATES = [
     description:
       "Advanced Python programming with focus on data analysis, machine learning, and AI applications in healthcare.",
     technologies: ["Pandas", "NumPy", "TensorFlow", "Scikit-learn", "OpenCV", "PyTorch"],
-  },
-  {
-    title: "C++",
-    image: cpp,
-    description:
-      "Developed high-performance algorithms and data structures, with applications in Macromedia Academy.",
-    technologies: ["OOP", "Pointer", "Arithmetics", "Storage optimization", "lifeCycles"],
   },
   {
     title: "Web-Development",
@@ -126,8 +128,8 @@ export const CERTIFICATES = [
   },
   
   {
-    title: "Professor Recommendations",
-    image: prof,
+    title: "Employer References 2",
+    image: computacenter,
     description: "Positive testimonials highlighting my programming and analysing ability from highly successful Professor.",
     technologies: ["Programmin", "OOP", "DB"],
   },

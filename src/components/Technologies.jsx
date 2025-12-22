@@ -24,17 +24,6 @@ import { SiTeamviewer } from "react-icons/si";
 import { FaNetworkWired } from "react-icons/fa";
 
 
-/*
-import { RiReactjsLine } from "react-icons/ri"
-import { TbBrandNextjs } from "react-icons/tb"
-import { SiPython } from 'react-icons/si';
-import { SiCplusplus } from 'react-icons/si';
-import { FaNodeJs } from "react-icons/fa"
-import { BiLogoPostgresql } from "react-icons/bi"
-import { SiKotlin } from 'react-icons/si';
-import { SiTensorflow } from 'react-icons/si';
-import { motion } from "framer-motion";
-*/
 const iconVariants= (duration) =>({
     initial: {y:-10},
     animate:{
