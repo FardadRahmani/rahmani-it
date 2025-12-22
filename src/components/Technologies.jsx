@@ -1,3 +1,6 @@
+import { motion } from "framer-motion";
+
+
 // Ticketing & Helpdesk
 import { SiZendesk } from "react-icons/si";
 import { SiJirasoftware } from "react-icons/si";
