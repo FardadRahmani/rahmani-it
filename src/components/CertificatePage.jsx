@@ -10,9 +10,11 @@ const CertificatePage = () => {
 
   const imageFiles = [
     "/Python-Certificate.png",
-    "/notenspiegel_englisch.png",
     "/WebDevelopment-Certificate.png",
     "/Android-Certificate.png",
+
+    
+    
     "/IT-KursZertifikate.png",
     "/Arbeitszeungis.png",
     "/Computacenter.png",
