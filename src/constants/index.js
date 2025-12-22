@@ -8,7 +8,7 @@ import cpp from "../assets/certificates/Cpp.jpg";
 import html from "../assets/certificates/html.jpg";
 import android from "../assets/certificates/android.jpg";
 import employer from "../assets/certificates/employer.jpg";
-import computacenter from "../assets/certificates/Computacenter.jpg";
+
 import networks from "../assets/certificates/networks.jpg";
 import prof from "../assets/certificates/stamp.jpg";
 
@@ -129,7 +129,7 @@ export const CERTIFICATES = [
   
   {
     title: "Employer References 2",
-    image: computacenter,
+    image: employer,
     description: "Positive testimonials highlighting my programming and analysing ability from highly successful Professor.",
     technologies: ["Programmin", "OOP", "DB"],
   },

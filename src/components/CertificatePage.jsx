@@ -15,7 +15,8 @@ const CertificatePage = () => {
     "/Android-Certificate.png",
     "/IT-KursZertifikate.png",
     "/Arbeitszeungis.png",
-    "/Empfehlungsschreiben.png",
+    "/Computacenter.png",
+    
  
   ];
 
