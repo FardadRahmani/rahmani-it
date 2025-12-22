@@ -1,3 +1,30 @@
+// Ticketing & Helpdesk
+import { SiZendesk } from "react-icons/si";
+import { SiJirasoftware } from "react-icons/si";
+
+// Knowledge Base & Collaboration
+import { SiConfluence } from "react-icons/si";
+import { SiMicrosoftsharepoint } from "react-icons/si";
+
+// Microsoft Ecosystem
+import { SiMicrosoftoffice } from "react-icons/si";
+import { SiWindows } from "react-icons/si";
+
+// Directory & Identity
+// (Active Directory → Windows Icon)
+import { SiWindows as SiActivedirectory } from "react-icons/si";
+
+// Operating Systems
+import { SiLinux } from "react-icons/si";
+
+// Remote Support
+import { SiTeamviewer } from "react-icons/si";
+
+// Networking
+import { FaNetworkWired } from "react-icons/fa";
+
+
+/*
 import { RiReactjsLine } from "react-icons/ri"
 import { TbBrandNextjs } from "react-icons/tb"
 import { SiPython } from 'react-icons/si';
@@ -7,7 +34,7 @@ import { BiLogoPostgresql } from "react-icons/bi"
 import { SiKotlin } from 'react-icons/si';
 import { SiTensorflow } from 'react-icons/si';
 import { motion } from "framer-motion";
-
+*/
 const iconVariants= (duration) =>({
     initial: {y:-10},
     animate:{
@@ -41,7 +68,7 @@ const Technologies = () => {
             initial="initial"
             animate= "animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <RiReactjsLine className="text-7xl text-cyan-400"/>
+                <SiZendesk className="text-7xl text-cyan-400"/>
             </motion.div>
 
             {/* <div className="rounded-2xl border-4 border-neutral-800 p-4">
@@ -53,7 +80,7 @@ const Technologies = () => {
             initial="initial"
             animate= "animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiPython className="text-7xl text-yellow-400"/>
+                <SiJirasoftware className="text-7xl text-yellow-400"/>
             </motion.div>
 
             <motion.div 
@@ -61,7 +88,7 @@ const Technologies = () => {
             initial="initial"
             animate= "animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiCplusplus className="text-7xl"/>
+                <SiConfluence className="text-7xl"/>
             </motion.div>
 
             <motion.div 
@@ -69,7 +96,7 @@ const Technologies = () => {
             initial="initial"
             animate= "animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <FaNodeJs className="text-7xl text-green-500"/>
+                <SiMicrosoftoffice className="text-7xl text-green-500"/>
             </motion.div>
 
             <motion.div 
@@ -77,7 +104,7 @@ const Technologies = () => {
             initial="initial"
             animate= "animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <BiLogoPostgresql className="text-7xl text-sky-700"/>
+                <SiWindows className="text-7xl text-sky-700"/>
             </motion.div>
 
             <motion.div 
@@ -85,7 +112,7 @@ const Technologies = () => {
             initial="initial"
             animate= "animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiKotlin className="text-7xl text-purple-700"/>
+                <SiLinux className="text-7xl text-purple-700"/>
             </motion.div>
 
             <motion.div 
@@ -93,7 +120,7 @@ const Technologies = () => {
             initial="initial"
             animate= "animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiTensorflow className="text-7xl text-orange-400"/>
+                <SiTeamviewer className="text-7xl text-orange-400"/>
             </motion.div>
 
 
