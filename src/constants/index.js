@@ -137,7 +137,6 @@ export const CERTIFICATES = [
 
 
 export const CONTACT = {
-  address: "Bad Cannstatt, Stuttgart ",
-  phoneNo: "+49-See CV ",
+  address: "Stuttgart ",
   email: "rahmanifardad@yahoo.de",
 };
