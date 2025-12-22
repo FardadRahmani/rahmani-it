@@ -80,13 +80,7 @@ const Technologies = () => {
                 <SiConfluence className="text-7xl"/>
             </motion.div>
 
-            <motion.div 
-            variants={iconVariants(2)}
-            initial="initial"
-            animate= "animate"
-            className="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiMicrosoftoffice className="text-7xl text-green-500"/>
-            </motion.div>
+            
 
             <motion.div 
             variants={iconVariants(6)}
