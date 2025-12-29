@@ -7,6 +7,8 @@ import python from "../assets/certificates/python.jpg";
 import cpp from "../assets/certificates/Cpp.jpg";
 import html from "../assets/certificates/html.jpg";
 import android from "../assets/certificates/android.jpg";
+import ad from "../assets/certificates/ad.jpg";
+import ms from "../assets/certificates/ms.jpg";
 import employer from "../assets/certificates/employer.jpg";
 
 import networks from "../assets/certificates/networks.jpg";
@@ -111,6 +113,18 @@ export const CERTIFICATES = [
     title: "Android-App Development",
     image: android,
     description: "Developed mobile health applications for patient monitoring and data collection.",
+    technologies: ["Java", "Kotlin", "Android SDK", "Firebase", "HealthKit"],
+  },
+  {
+    title: "Active Directory",
+    image: ad,
+    description: "Completed a comprehensive Active Directory course covering user, group, and access management.",
+    technologies: ["User management", "Group management", "Access control", "Directory services", "Identity management"],
+  },
+  {
+    title: "Microsoft 365",
+    image: ms,
+    description: "Completed a comprehensive Microsoft 365 course covering administration, security, and cloud services.",
     technologies: ["Java", "Kotlin", "Android SDK", "Firebase", "HealthKit"],
   },
   {

@@ -12,12 +12,12 @@ const CertificatePage = () => {
     "/Python-Certificate.png",
     "/WebDevelopment-Certificate.png",
     "/Android-Certificate.png",
-
-    
-    
+    "/AD.png",
+    "/MS365.png",
     "/IT-KursZertifikate.png",
     "/Arbeitszeungis.png",
     "/Computacenter.png",
+
     
  
   ];
