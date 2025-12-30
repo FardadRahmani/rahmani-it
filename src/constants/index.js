@@ -62,7 +62,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional knowledgebase created for both internal employees as well as customers on best uses etc.",
-    technologies: ["Kotlin", "Jetpack Compose", "Co-Routines", "Asynchronous Programming", "Composables"],
+    technologies: ["Zendesk Knowledge Management", "Customer & Internal Documentation", "Self-Service Support Content", "Knowledgebase Architecture & Design", "Technical Writing / User Guidance"],
   },
   {
     title: "Confluence Knowledge Base Management",
