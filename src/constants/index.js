@@ -125,27 +125,27 @@ export const CERTIFICATES = [
     title: "Microsoft 365",
     image: ms,
     description: "Completed a comprehensive Microsoft 365 course covering administration, security, and cloud services.",
-    technologies: ["Java", "Kotlin", "Android SDK", "Firebase", "HealthKit"],
+    technologies: ["Microsoft 365 Administration", "Exchange & Outlook Management", "Teams & Collaboration Tools", "User/Access Management ", "M365 Security"],
   },
   {
     title: "IT Courses - LinkedIn Learning",
     image: networks,
     description:
-      "Completed courses in AI ethics, medical data privacy, and cutting-edge machine learning techniques.",
-    technologies: ["Networks", "GDPR", "HIPAA", "Deep Learning", "Natural Language Processing"],
+      "Completed a 72-hour LinkedIn training in network administration, covering routing, switching, security, and hands-on infrastructure management.",
+    technologies: ["Network Administration", "Routing & Switching", "Network Security Fundamentals", "Infrastructure Management", "TCP/IP & Troubleshooting"],
   },
   {
     title: "Employer References",
     image: employer,
-    description: "Positive testimonials highlighting problem-solving skills and ability to work in interdisciplinary teams.",
-    technologies: ["Team Collaboration", "Agile Methodologies", "Cross-functional Communication"],
+    description: "Administered Linux servers, integrated CT/X-ray devices with proprietary software, validated new medical systems, created user guides, and optimized image processing.",
+    technologies: ["Linux Server Administration", "Medical Imaging Systems (CT/X-ray)", "Device Integration", "Image Processing Optimization"],
   },
   
   {
     title: "Employer References 2",
     image: employer,
-    description: "Positive testimonials highlighting my programming and analysing ability from highly successful Professor.",
-    technologies: ["Programmin", "OOP", "DB"],
+    description: "Provided Windows client/server support, resolved printer issues, managed incidents, and delivered reliable technical assistance.",
+    technologies: ["Windows Client & Server Support", "Incident Management", "Hardware/Software Troubleshooting", "Active Directory"],
   },
 ];
 
