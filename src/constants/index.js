@@ -14,7 +14,7 @@ import employer from "../assets/certificates/employer.jpg";
 import networks from "../assets/certificates/networks.jpg";
 import prof from "../assets/certificates/stamp.jpg";
 
-export const HERO_CONTENT = `I am an experienced IT support specialist with a strong background in building reliable and efficient support environments. With 5 years of hands-on experience in IT operations, I have developed a deep understanding of service processes and structured troubleshooting. During my previous roles, I worked extensively with Windows, Linux servers, Microsoft 365, and ticket systems, applying IT service management principles and best practices. My goal is to leverage my expertise in support operations, analytical problem‑solving, and clear communication to design effective support structures and deliver solutions that create measurable impact.`;
+export const HERO_CONTENT = `Ich unterstütze medizinische Einrichtungen mit professionellem IT‑Support, schneller Fehlerbehebung und stabilen Systemen. Von Praxissoftware über Netzwerk & Hardware bis zu Sicherheitslösungen – Sie erhalten alles aus einer Hand.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile IT support specialist with a passion for delivering efficient and user‑friendly solutions. I have worked across various environments, supporting Windows, Linux servers, Microsoft 365, networks, and hardware. What intrigued me the most and kept me motivated was definitely troubleshooting and process optimization. I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and deeply enjoy analyzing complex issues to deliver clear, high‑quality results. I am particularly enthusiastic about customer service excellence and knowledgebase management. Outside of work, I enjoy activities such as playing music, calligraphy, hiking, and yoga.`;
 
@@ -152,5 +152,6 @@ export const CERTIFICATES = [
 
 export const CONTACT = {
   address: "Stuttgart ",
-  email: "rahmanifardad@yahoo.de",
+  phoneNo: "+49 177 1859667",
+  email: "service@rahmani-it.com",
 };

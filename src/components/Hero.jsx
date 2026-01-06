@@ -22,7 +22,7 @@ const Hero = () => {
                     initial="hidden"
                     animate="visible"
                      className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl">
-                        Fardad Rahmani
+                        IT-Service in der Medizintechnik
                     </motion.h1>
 
                     <motion.span 
@@ -30,7 +30,7 @@ const Hero = () => {
                     initial="hidden"
                     animate="visible"                    
                     className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">
-                        IT Support Specialist
+                        Zuverlässige, sichere und DSGVO-konforme IT-Lösungen für den medizinischen Alltag.
                     </motion.span>
                     
                     <motion.p 
