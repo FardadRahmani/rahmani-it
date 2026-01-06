@@ -41,6 +41,16 @@ const Hero = () => {
                         {HERO_CONTENT}
                     </motion.p>
 
+                    {/* CTA Button */} 
+                    <motion.a 
+                    href="#contact" 
+                    variants={container(1.2)} 
+                    initial="hidden" 
+                    animate="visible" 
+                    className="mt-4 inline-block px-8 py-4 bg-cyan-500 text-black font-semibold rounded-lg shadow-lg hover:bg-cyan-400 transition-colors" > 
+                    Kontakt aufnehmen 
+                    </motion.a>
+
                 </div>
             </div>
 
