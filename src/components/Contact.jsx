@@ -26,8 +26,10 @@ const Contact = () => {
         für ein unverbindliches Erstgespräch.
       </motion.p>
 
-      {/* Kontaktformular */}
+      {/* FORMULAR MIT FORMSPREE */}
       <motion.form
+        action="https://formspree.io/f/mykzqaok"
+        method="POST"
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: 50 }}
         transition={{ duration: 0.8 }}
