@@ -6,6 +6,7 @@ import WhyRahmaniIT from './components/WhyRahmaniIT'
 import AboutMe from './components/AboutMe'
 import Packages from './components/Packages'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 
 const App = () => {
@@ -30,6 +31,7 @@ const App = () => {
       <AboutMe />
       <Packages />
       <Contact />
+      <Footer />
       </div>
     </div>
   )

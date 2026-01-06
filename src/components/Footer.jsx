@@ -1,0 +1,57 @@
+import logo from "../assets/fardadLogo.png";
+import { FaGithub } from "react-icons/fa";
+
+const Footer = () => {
+  return (
+    <footer className="border-t border-neutral-800 py-10 mt-20">
+      <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+
+        {/* Logo + Name */}
+        <div className="flex items-center gap-3">
+          <img src={logo} alt="Rahmani IT Logo" className="w-10" />
+          <span className="text-neutral-300 font-semibold tracking-tight">
+            Rahmani IT
+          </span>
+        </div>
+
+        {/* Kontakt */}
+        <div className="text-center md:text-right text-neutral-400 text-sm leading-relaxed">
+          <p>📍 Stuttgart, Deutschland</p>
+          <p>
+            📞{" "}
+            <a href="tel:+491771859667" className="hover:text-cyan-400">
+              +49 177 1859667
+            </a>
+          </p>
+          <p>
+            ✉️{" "}
+            <a
+              href="mailto:service@rahmani-it.com"
+              className="hover:text-cyan-400"
+            >
+              service@rahmani-it.com
+            </a>
+          </p>
+        </div>
+
+        {/* Rechtliches */}
+        <div className="text-neutral-400 text-sm flex flex-col gap-2 text-center md:text-right">
+          <a href="/impressum" className="hover:text-cyan-400">
+            Impressum
+          </a>
+          <a href="/datenschutz" className="hover:text-cyan-400">
+            Datenschutz
+          </a>
+        </div>
+
+      </div>
+
+      {/* Copyright */}
+      <div className="text-center text-neutral-600 text-xs mt-10">
+        © {new Date().getFullYear()} Rahmani IT – Alle Rechte vorbehalten.
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
