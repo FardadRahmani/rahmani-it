@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Services from './components/Services'
-import Technologies from './components/Technologies'
+import WhyRahmaniIT from './components/WhyRahmaniIT'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
@@ -26,7 +26,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Services />
-      <Technologies />
+      <WhyRahmaniIT />
       <Experience />
       <Projects />
       <Certificates />
