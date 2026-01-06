@@ -19,8 +19,8 @@ const Footer = () => {
           <p>📍 Stuttgart, Deutschland</p>
           <p>
             📞{" "}
-            <a href="tel:+49177 ---" className="hover:text-cyan-400">
-              +49 177 ---
+            <a href="tel:+49177 1859667" className="hover:text-cyan-400">
+              +49 177 1859667
             </a>
           </p>
           <p>
