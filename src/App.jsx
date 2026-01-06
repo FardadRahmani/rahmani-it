@@ -6,7 +6,7 @@ import WhyRahmaniIT from './components/WhyRahmaniIT'
 import AboutMe from './components/AboutMe'
 import Packages from './components/Packages'
 import Contact from './components/Contact'
-import Certificates from './components/Certifications'
+
 
 const App = () => {
   return (
