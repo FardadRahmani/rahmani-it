@@ -58,7 +58,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Zendesk Knowledgebase",
+    title: "Zendesk Knowledgebase A",
     image: project1,
     description:
       "A fully functional knowledgebase created for both internal employees as well as customers on best uses etc.",
