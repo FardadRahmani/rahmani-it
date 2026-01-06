@@ -1,18 +1,4 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
 
-import python from "../assets/certificates/python.jpg";
-import cpp from "../assets/certificates/Cpp.jpg";
-import html from "../assets/certificates/html.jpg";
-import android from "../assets/certificates/android.jpg";
-import ad from "../assets/certificates/ad.jpg";
-import ms from "../assets/certificates/ms.jpg";
-import employer from "../assets/certificates/employer.jpg";
-
-import networks from "../assets/certificates/networks.jpg";
-import prof from "../assets/certificates/stamp.jpg";
 
 export const HERO_CONTENT = `Ich unterstütze medizinische Einrichtungen mit professionellem IT-Support, schneller Fehlerbehebung und stabilen Systemen. Von Praxissoftware über Netzwerk & Hardware bis zu Sicherheitslösungen – Sie erhalten alles aus einer Hand.`;
 
