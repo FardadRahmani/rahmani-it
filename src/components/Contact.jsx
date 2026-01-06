@@ -39,6 +39,7 @@ const Contact = () => {
         <div>
           <label className="block mb-2 text-sm font-medium">Name</label>
           <input
+            name="name"
             type="text"
             className="w-full p-3 rounded bg-neutral-800 border border-neutral-700 focus:border-cyan-400 focus:outline-none"
             placeholder="Ihr Name"
@@ -49,6 +50,7 @@ const Contact = () => {
         <div>
           <label className="block mb-2 text-sm font-medium">Praxis / Unternehmen</label>
           <input
+            name="enterprise"
             type="text"
             className="w-full p-3 rounded bg-neutral-800 border border-neutral-700 focus:border-cyan-400 focus:outline-none"
             placeholder="Name der Praxis oder Firma"
@@ -59,6 +61,7 @@ const Contact = () => {
         <div>
           <label className="block mb-2 text-sm font-medium">E‑Mail</label>
           <input
+            name="email"
             type="email"
             className="w-full p-3 rounded bg-neutral-800 border border-neutral-700 focus:border-cyan-400 focus:outline-none"
             placeholder="Ihre E‑Mail-Adresse"
@@ -69,6 +72,7 @@ const Contact = () => {
         <div>
           <label className="block mb-2 text-sm font-medium">Nachricht</label>
           <textarea
+            name="message"
             rows="5"
             className="w-full p-3 rounded bg-neutral-800 border border-neutral-700 focus:border-cyan-400 focus:outline-none"
             placeholder="Wie kann ich Ihnen helfen?"
