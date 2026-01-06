@@ -4,6 +4,7 @@ const Contact = () => {
   return (
     <div id="contact" className="border-b border-neutral-900 pb-20">
       
+      {/* Überschrift */}
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -13,6 +14,7 @@ const Contact = () => {
         Kontakt aufnehmen
       </motion.h2>
 
+      {/* Einleitung */}
       <motion.p
         whileInView={{ opacity: 1 }}
         initial={{ opacity: 0 }}
@@ -24,59 +26,87 @@ const Contact = () => {
         für ein unverbindliches Erstgespräch.
       </motion.p>
 
-      {/* FORMULAR MIT FORMSPREE */}
+      {/* Kontaktformular */}
       <motion.form
-        action="https://formspree.io/f/mykzqaok"
-        method="POST"
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: 50 }}
         transition={{ duration: 0.8 }}
         className="max-w-xl mx-auto space-y-6"
       >
+        {/* Name */}
         <div>
           <label className="block mb-2 text-sm font-medium">Name</label>
           <input
-            name="name"
             type="text"
             className="w-full p-3 rounded bg-neutral-800 border border-neutral-700 focus:border-cyan-400 focus:outline-none"
             placeholder="Ihr Name"
-            required
           />
         </div>
 
+        {/* Praxis / Unternehmen */}
         <div>
           <label className="block mb-2 text-sm font-medium">Praxis / Unternehmen</label>
           <input
-            name="company"
             type="text"
             className="w-full p-3 rounded bg-neutral-800 border border-neutral-700 focus:border-cyan-400 focus:outline-none"
             placeholder="Name der Praxis oder Firma"
           />
         </div>
 
+        {/* E-Mail */}
         <div>
           <label className="block mb-2 text-sm font-medium">E‑Mail</label>
           <input
-            name="email"
             type="email"
             className="w-full p-3 rounded bg-neutral-800 border border-neutral-700 focus:border-cyan-400 focus:outline-none"
             placeholder="Ihre E‑Mail-Adresse"
-            required
           />
         </div>
 
+        {/* Nachricht */}
         <div>
           <label className="block mb-2 text-sm font-medium">Nachricht</label>
           <textarea
-            name="message"
             rows="5"
             className="w-full p-3 rounded bg-neutral-800 border border-neutral-700 focus:border-cyan-400 focus:outline-none"
             placeholder="Wie kann ich Ihnen helfen?"
-            required
           ></textarea>
         </div>
 
+        {/* Absenden Button */}
         <button
+          type="submit"
+          className="w-full py-3 bg-cyan-500 hover:bg-cyan-400 text-black font-semibold rounded transition-colors"
+        >
+          Absenden
+        </button>
+      </motion.form>
+
+      {/* Alternative Kontaktinfos */}
+      <div className="text-center tracking-tight space-y-4 mt-12">
+        <p>📍 Stuttgart</p>
+        <p>
+          📞{" "}
+          <a href="tel:+491771859667" className="hover:text-cyan-400">
+            +49 177 1859667
+          </a>
+        </p>
+        <p>
+          ✉️{" "}
+          <a
+            href="mailto:service@rahmani-it.com"
+            className="border-b border-neutral-600 hover:text-cyan-400 hover:border-cyan-400"
+          >
+            service@rahmani-it.com
+          </a>
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default Contact;
+
 
 
 
