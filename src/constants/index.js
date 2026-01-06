@@ -72,60 +72,6 @@ import { SiKotlin } from 'react-icons/si';
 import { SiTensorflow } from 'react-icons/si';
 import { motion } from "framer-motion";
 */
-export const CERTIFICATES = [
-  {
-    title: "Python",
-    image: python,
-    description:
-      "Advanced Python programming with focus on data analysis, machine learning, and AI applications in healthcare.",
-    technologies: ["Pandas", "NumPy", "TensorFlow", "Scikit-learn", "OpenCV", "PyTorch"],
-  },
-  {
-    title: "Web-Development",
-    image: html,
-    description:
-      "Created responsive web applications for visualizing medical data and AI model outputs.",
-    technologies: ["HTML5", "CSS3", "JavaScript", "React", "D3.js", "Flask"],
-  },
-  {
-    title: "Android-App Development",
-    image: android,
-    description: "Developed mobile health applications for patient monitoring and data collection.",
-    technologies: ["Java", "Kotlin", "Android SDK", "Firebase", "HealthKit"],
-  },
-  {
-    title: "Active Directory",
-    image: ad,
-    description: "Completed a comprehensive Active Directory course covering user, group, and access management.",
-    technologies: ["User management", "Group management", "Access control", "Directory services", "Identity management"],
-  },
-  {
-    title: "Microsoft 365",
-    image: ms,
-    description: "Completed a comprehensive Microsoft 365 course covering administration, security, and cloud services.",
-    technologies: ["Microsoft 365 Administration", "Exchange & Outlook Management", "Teams & Collaboration Tools", "User/Access Management ", "M365 Security"],
-  },
-  {
-    title: "IT Courses - LinkedIn Learning",
-    image: networks,
-    description:
-      "Completed a 72-hour LinkedIn training in network administration, covering routing, switching, security, and hands-on infrastructure management.",
-    technologies: ["Network Administration", "Routing & Switching", "Network Security Fundamentals", "Infrastructure Management", "TCP/IP & Troubleshooting"],
-  },
-  {
-    title: "Employer References",
-    image: employer,
-    description: "Administered Linux servers, integrated CT/X-ray devices with proprietary software, validated new medical systems, created user guides, and optimized image processing.",
-    technologies: ["Linux Server Administration", "Medical Imaging Systems (CT/X-ray)", "Device Integration", "Image Processing Optimization"],
-  },
-  
-  {
-    title: "Employer References 2",
-    image: employer,
-    description: "Provided Windows client/server support, resolved printer issues, managed incidents, and delivered reliable technical assistance.",
-    technologies: ["Windows Client & Server Support", "Incident Management", "Hardware/Software Troubleshooting", "Active Directory"],
-  },
-];
 
 
 export const CONTACT = {

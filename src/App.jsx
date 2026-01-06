@@ -29,7 +29,6 @@ const App = () => {
       <WhyRahmaniIT />
       <AboutMe />
       <Packages />
-      <Certificates />
       <Contact />
       </div>
     </div>
