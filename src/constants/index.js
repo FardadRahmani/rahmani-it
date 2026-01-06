@@ -18,46 +18,9 @@ export const HERO_CONTENT = `Ich unterstütze medizinische Einrichtungen mit pro
 
 export const SERVICES = [ { title: "Praxis-IT Betreuung", description: "Regelmäßige Wartung, Updates, Monitoring und schnelle Unterstützung für einen reibungslosen Praxisbetrieb.", }, { title: "Unterstützung für Praxissoftware", description: "Einrichtung, Updates und Fehlerbehebung für Medistar, Albis, Duria, Tomedo und weitere Praxisverwaltungssysteme.", }, { title: "Netzwerk & WLAN", description: "Stabile und sichere Netzwerke für Empfang, Behandlungsräume und Backoffice - perfekt abgestimmt auf medizinische Anforderungen.", }, { title: "IT-Sicherheit & Datenschutz", description: "Firewall, Antivirus, Backups und DSGVO-konforme IT-Dokumentation für maximale Sicherheit.", }, { title: "Hardware-Service", description: "Beschaffung, Installation und Einrichtung von PCs, Druckern, Scannern und Kartenlesegeräten.", }, { title: "Schneller Support", description: "Fernwartung und Vor-Ort-Service in Stuttgart und Umgebung - zuverlässig und persönlich.", }, ];
 
-export const USPs = [ { title: "Spezialisierung auf medizinische Einrichtungen", description: "Ich kenne die technischen und organisatorischen Anforderungen von Arztpraxen, Apotheken und MVZs.", }, { title: "Schnelle Reaktionszeiten", description: "Bei IT-Problemen zählt jede Minute. Ich bin zuverlässig erreichbar und handle sofort.", }, { title: "Persönlicher Ansprechpartner", description: "Keine Hotline, kein Weiterleiten. Sie sprechen direkt mit mir - klar, schnell und unkompliziert.", }, { title: "Erfahrung mit Praxissoftware", description: "Unterstützung für Medistar, Albis, Duria, Tomedo und weitere Praxisverwaltungssysteme.", }, { title: "Sicherheit & Datenschutz", description: "DSGVO-konforme IT-Lösungen, sichere Netzwerke, Backups und moderne Sicherheitskonzepte.", }, { title: "Vor-Ort-Service in Stuttgart", description: "Ich bin schnell bei Ihnen vor Ort - zuverlässig und flexibel.", }, ];
+export const USPs = [ { title: "Spezialisierung auf medizinische Einrichtungen", description: "Ich kenne die technischen und organisatorischen Anforderungen von Arztpraxen, Apotheken und MVZs.", }, { title: "Schnelle Reaktionszeiten", description: "Bei IT-Problemen zählt jede Minute. Ich bin zuverlässig erreichbar und handle sofort.", }, { title: "Persönlicher Ansprechpartner", description: "Keine Hotline, kein Weiterleiten. Sie sprechen direkt mit mir - klar, schnell und unkompliziert.", }, { title: "Erfahrung mit Praxissoftware", description: "Ich kenne die technischen Anforderungen gängiger Praxisverwaltungssysteme und unterstütze bei Schnittstellen, Anbindungen (z.sB. Röntgensysteme) und grundlegenden technischen Aufgaben rund um die Software.", }, { title: "Sicherheit & Datenschutz", description: "DSGVO-konforme IT-Lösungen, sichere Netzwerke, Backups und moderne Sicherheitskonzepte.", }, { title: "Vor-Ort-Service in Stuttgart", description: "Ich bin schnell bei Ihnen vor Ort - zuverlässig und flexibel.", }, ];
 
 
-export const EXPERIENCES = [
-  {
-    year: "12/2025 - Present",
-    role: "Freelancer",
-    company: "Stuttgart",
-    description: `Learning Software development especially OOP.`,
-    technologies: ["Confluence", "Jira", "AD", "Windows/IOS"],
-  },
-  {
-    year: "08/2022 - 11/2025",
-    role: "Servicedesk Management",
-    company: "Staatliche Lotto-GmbH",
-    description: `Optimized support processes and coordinated both software and hardware deployments. Managed user access and employee schedules across multiple teams. Maintained and expanded the internal knowledge base to improve service quality. Handled incidents proactively and resolved issues to ensure stable and efficient operations.`,
-    technologies: ["incident management", "Software distribution", "Confluence", "Regex"],
-  },
-  {
-    year: "2022 - 2022",
-    role: "Senior Technician",
-    company: "Computacenter AG",
-    description: `Support of well-known end customers on-site.Maintenance of customer systems according to IMAC.`,
-    technologies: ["CISM Platform Support", "Azure Administration & Support", "Enterprise Access & Identity Management (Azure AD)", "Enterprise Incident Management (CISM, Azure)"],
-  },
-  {
-    year: "12/2025 - Present",
-    role: "Imaging Process Specialist",
-    company: "Freelancer, Paris",
-    description: `Advanced imaging specialist training CT, MRI, X-Ray. Test of newest CT and X-Ray Hardware in imaging aspect for european market.`,
-    technologies: ["Confluence", "Jira", "AD", "Windows/IOS"],
-  },
-  {
-    year: "2016 - 2018",
-    role: "Helpdesk Level 2 und 3",
-    company: "Examion GmbH",
-    description: `Optimized support processes and coordinated both software and hardware deployments. Administration of both Linux and Windoes Servers. Managed user access and employee schedules across multiple plattforms. Maintained and expanded the internal knowledge base to improve service quality. Handled incidents proactively and resolved issues to ensure stable and efficient operations. Tested newest hardware for the market in germany.`,
-    technologies: ["XRAY imaging systems", "CT", "MRI", "X-Ray"],
-  },
-];
 
 export const PROJECTS = [
   {
