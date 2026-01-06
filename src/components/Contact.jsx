@@ -93,8 +93,8 @@ const Contact = () => {
         <p>📍 Stuttgart</p>
         <p>
           📞{" "}
-          <a href="tel:+491771859667" className="hover:text-cyan-400">
-            +49 177 1859667
+          <a href="tel:+49177 ---" className="hover:text-cyan-400">
+            +49 177 ---
           </a>
         </p>
         <p>
