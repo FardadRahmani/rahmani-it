@@ -3,8 +3,8 @@ import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import App from './App.jsx';
-import Impressum from './pages/Impressum.jsx';
-import Datenschutz from './pages/Datenschutz.jsx';
+import Impressum from './components/Impressum.jsx';
+import Datenschutz from './components/Datenschutz.jsx';
 import './index.css';
 
 const router = createBrowserRouter([
