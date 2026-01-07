@@ -33,3 +33,4 @@
     © {new Date().getFullYear()} Rahmani IT – Alle Rechte vorbehalten.
   </div>
 </footer>
+export default Footer
