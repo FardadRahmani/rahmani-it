@@ -6,26 +6,27 @@ export const SERVICES = [ { title: "Praxis-IT Betreuung", description: "Regelmä
 
 export const USPs = [ { title: "Spezialisierung auf medizinische Einrichtungen", description: "Ich kenne die technischen und organisatorischen Anforderungen von Arztpraxen, Apotheken und MVZs.", }, { title: "Schnelle Reaktionszeiten", description: "Bei IT-Problemen zählt jede Minute. Ich bin zuverlässig erreichbar und handle sofort.", }, { title: "Persönlicher Ansprechpartner", description: "Keine Hotline, kein Weiterleiten. Sie sprechen direkt mit mir - klar, schnell und unkompliziert.", }, { title: "Erfahrung mit Praxissoftware", description: "Ich kenne die technischen Anforderungen gängiger Praxisverwaltungssysteme und unterstütze bei Schnittstellen, Anbindungen (z.sB. Röntgensysteme) und grundlegenden technischen Aufgaben rund um die Software.", }, { title: "Sicherheit & Datenschutz", description: "DSGVO-konforme IT-Lösungen, sichere Netzwerke, Backups und moderne Sicherheitskonzepte.", }, { title: "Vor-Ort-Service in Stuttgart", description: "Ich bin schnell bei Ihnen vor Ort - zuverlässig und flexibel.", }, ];
 
-
 export const PACKAGES = [
   {
     title: "Basis-Paket",
-    price: "ab 49 € / Monat",
+    price: "150 € / Monat",
     features: [
-      "Fernwartung",
-      "System-Monitoring",
-      "Windows-Updates",
+      "1 Stunde IT-Support pro Monat (für all Ihre Arbeitsplätze!)",
+      "Fernwartung inklusive",
+      "Windows- und Software-Updates",
       "Basis-Sicherheitschecks",
-      "Unterstützung bei kleinen Problemen"
+      "Unterstützung bei kleineren Problemen",
+      "Ideal für kleine Praxen oder Einzelarbeitsplätze"
     ],
   },
   {
     title: "Standard-Paket",
-    price: "ab 129 € / Monat",
+    price: "300 € / Monat",
     features: [
+      "3 Stunden IT-Support pro Monat",
       "Alles aus dem Basis-Paket",
-      "Vor-Ort-Service (kontingent)",
-      "Netzwerk-Betreuung",
+      "Vor-Ort-Service inklusive (innerhalb des Stundenkontingents)",
+      "Netzwerk-Betreuung & Router/Firewall-Checks",
       "Backup-Überwachung",
       "Unterstützung bei Praxissoftware-Schnittstellen",
       "Priorisierte Reaktionszeiten"
@@ -33,18 +34,20 @@ export const PACKAGES = [
   },
   {
     title: "Premium-Paket",
-    price: "ab 249 € / Monat",
+    price: "500 € / Monat",
     features: [
+      "5 Stunden IT-Support pro Monat",
       "Alles aus dem Standard-Paket",
       "Unbegrenzte Fernwartung",
       "Vor-Ort-Service inklusive",
-      "Firewall-Management",
-      "IT-Dokumentation (DSGVO)",
+      "Firewall-Management & Sicherheitsoptimierung",
+      "IT-Dokumentation (DSGVO-konform)",
       "Hardware-Service",
-      "Notfall-Support"
+      "Notfall-Support mit höchster Priorität"
     ],
   },
 ];
+
 
 
 /*
