@@ -1,36 +1,56 @@
-<footer className="border-t border-neutral-800 py-10 mt-20" data-nosnippet>
-  <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+import logo from "../assets/fardadLogo.png";
+import { FaGithub } from "react-icons/fa";
 
-    <div className="flex items-center gap-3">
-      <img src={logo} alt="Rahmani IT Logo" className="w-10" />
-      <span className="text-neutral-300 font-semibold tracking-tight">
-        Rahmani IT
-      </span>
-    </div>
+const Footer = () => {
+  return (
+    <footer className="border-t border-neutral-800 py-10 mt-20" data-nosnippet>
+      <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 px-6">
 
-    <div className="text-center md:text-right text-neutral-400 text-sm leading-relaxed">
-      <p>📍 Stuttgart, Deutschland</p>
-      <p>
-        📞{" "}
-        <span data-nosnippet>+49&nbsp;177&nbsp;185&nbsp;9667</span>
-      </p>
-      <p>
-        ✉️{" "}
-        <a href="mailto:service@rahmani-it.com" className="hover:text-cyan-400" data-nosnippet>
-          service<span className="hidden">REMOVE</span>@rahmani-it.com
-        </a>
-      </p>
-    </div>
+        {/* Logo */}
+        <div className="flex items-center gap-3">
+          <img src={logo} alt="Rahmani IT Logo" className="w-10" />
+          <span className="text-neutral-400 text-sm tracking-wide">
+            © {new Date().getFullYear()} Rahmani IT
+          </span>
+        </div>
 
-    <div className="text-neutral-400 text-sm flex flex-col gap-2 text-center md:text-right">
-      <a href="/impressum" className="hover:text-cyan-400">Impressum</a>
-      <a href="/datenschutz" className="hover:text-cyan-400">Datenschutz</a>
-    </div>
+        {/* Kontakt (maskiert) */}
+        <div className="text-center md:text-right text-neutral-400 text-sm space-y-1" data-nosnippet>
+          <p>📍 Stuttgart</p>
 
-  </div>
+          <p>
+            📞{" "}
+            <a
+              href="tel:+491771859667"
+              className="hover:text-cyan-400 transition-colors"
+              data-nosnippet
+            >
+              +49&nbsp;177&nbsp;185&nbsp;9667
+            </a>
+          </p>
 
-  <div className="text-center text-neutral-600 text-xs mt-10">
-    © {new Date().getFullYear()} Rahmani IT – Alle Rechte vorbehalten.
-  </div>
-</footer>
-export default Footer
+          <p>
+            ✉️{" "}
+            <a
+              href="mailto:service@rahmani-it.com"
+              className="border-b border-neutral-600 hover:text-cyan-400 hover:border-cyan-400 transition-colors"
+              data-nosnippet
+            >
+              service<span className="hidden">REMOVE</span>@rahmani-it.com
+            </a>
+          </p>
+        </div>
+
+        {/* Socials */}
+        <div className="flex items-center gap-4 text-2xl">
+          {/* <a href="https://github.com/FardadRahmani" className="hover:text-cyan-400">
+            <FaGithub />
+          </a> */}
+        </div>
+
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
