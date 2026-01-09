@@ -17,7 +17,7 @@ const Navbar = () => {
           className="flex items-center gap-2 px-4 py-2 bg-cyan-500 text-white text-base rounded-lg hover:bg-cyan-600 transition"
         >
           <img src={rdlogo} alt="RustDesk Logo" className="w-5 h-5" />
-          Fernwartung
+          FW
         </a>
       </div>
 
