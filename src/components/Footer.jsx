@@ -1,5 +1,5 @@
 import logo from "../assets/fardadLogo.png";
-import { FaGithub } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -41,11 +41,21 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Socials */}
-        <div className="flex items-center gap-4 text-2xl">
-          {/* <a href="https://github.com/FardadRahmani" className="hover:text-cyan-400">
-            <FaGithub />
-          </a> */}
+        {/* Rechtliches */}
+        <div className="flex flex-col text-sm text-neutral-400 space-y-1">
+          <Link
+            to="/impressum"
+            className="hover:text-cyan-400 transition-colors"
+          >
+            Impressum
+          </Link>
+
+          <Link
+            to="/datenschutz"
+            className="hover:text-cyan-400 transition-colors"
+          >
+            Datenschutz
+          </Link>
         </div>
 
       </div>
