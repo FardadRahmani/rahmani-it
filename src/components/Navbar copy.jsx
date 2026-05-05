@@ -4,18 +4,10 @@ import rdlogo from "../assets/rustdesk.png";
 const Navbar = () => {
   return (
     <nav className="mb-20 flex items-center justify-between py-6">
-
-      {/* Linke Seite: Logo */}
+      
+      {/* Linke Seite: Dein Logo */}
       <div className="flex flex-shrink-0 items-center">
         <img className="mx-2 w-20" src={logo} alt="logo" />
-      </div>
-
-      {/* Mittige Navigation */}
-      <div className="hidden md:flex gap-10 text-lg font-light">
-        <a href="#about" className="hover:text-cyan-500 transition">Über mich</a>
-        <a href="#services" className="hover:text-cyan-500 transition">Leistungen</a>
-        <a href="#whyme" className="hover:text-cyan-500 transition">Warum ich</a>
-        <a href="#contact" className="hover:text-cyan-500 transition">Kontakt</a>
       </div>
 
       {/* Rechte Seite: RustDesk Fernwartung */}
