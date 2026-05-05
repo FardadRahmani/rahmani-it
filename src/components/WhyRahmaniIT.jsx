@@ -4,6 +4,7 @@ import { USPs } from "../constants";
 
 const WhyRahmaniIT = () => {
   return (
+    <div id="WhyRahmaniIT">
     <div className="border-b border-neutral-800 pb-24">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
@@ -32,6 +33,7 @@ const WhyRahmaniIT = () => {
           </motion.div>
         ))}
       </div>
+    </div>
     </div>
   );
 };

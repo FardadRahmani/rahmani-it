@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 const AboutMe = () => {
   return (
+    <div id="AboutMe">
     <div className="border-b border-neutral-900 pb-20">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
@@ -32,6 +33,7 @@ const AboutMe = () => {
           konzentrieren können: ihre Patienten.
         </p>
       </motion.div>
+    </div>
     </div>
   );
 };
