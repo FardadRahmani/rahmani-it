@@ -12,9 +12,9 @@ const Navbar = () => {
 
       {/* Mittige Navigation */}
       <div className="hidden md:flex gap-10 text-lg font-light">
-        <a href="#about" className="hover:text-cyan-500 transition">Über mich</a>
+        <a href="#AboutMe" className="hover:text-cyan-500 transition">Über mich</a>
         <a href="#services" className="hover:text-cyan-500 transition">Leistungen</a>
-        <a href="#whyme" className="hover:text-cyan-500 transition">Warum ich</a>
+        <a href="#WhyRahmaniIT" className="hover:text-cyan-500 transition">Warum ich</a>
         <a href="#contact" className="hover:text-cyan-500 transition">Kontakt</a>
       </div>
 
