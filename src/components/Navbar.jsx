@@ -16,6 +16,7 @@ const Navbar = () => {
         <a href="#services" className="hover:text-cyan-500 transition">Leistungen</a>
         <a href="#WhyRahmaniIT" className="hover:text-cyan-500 transition">Warum ich</a>
         <a href="#contact" className="hover:text-cyan-500 transition">Kontakt</a>
+        <a href="https://github.com/FardadRahmani/rahmani-it-angebot/blob/main/Angebotsschreiben.pdf" className="hover:text-cyan-500 transition">Angebot-Download (PDF)</a>
       </div>
 
       {/* Rechte Seite: RustDesk Fernwartung */}
